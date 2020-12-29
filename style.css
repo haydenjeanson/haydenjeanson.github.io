@@ -1,0 +1,71 @@
+:root {
+  --dark-primary-color: #e64a19;
+  --default-primary-color: #fa683b;
+  --light-primary-color: #ffccbc;
+  --text-primary-color: #ffffff;
+  --accent-color: #ffc107;
+  --primary-text-color: #161616;
+  --secondary-text-color: #757575;
+  --divider-color: #bdbdbd;
+}
+
+.divider-color {
+  border-color: #bdbdbd;
+}
+
+@font-face {
+  font-family: AlegreyaSans-Bold;
+  src: url("fonts/AlegreyaSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: AlegreyaSans-Regular;
+  src: url("fonts/AlegreyaSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: AlegreyaSans-Medium;
+  src: url("fonts/AlegreyaSans-Medium.ttf");
+}
+
+body {
+  background-color: var(--light-primary-color);
+}
+
+#nav-bar {
+  background-color: var(--dark-primary-color);
+  color: var(--primary-text-color);
+}
+
+#nav-bar h1 {
+  font-family: AlegreyaSans-Bold;
+  font-size: 60;
+  padding: 10px;
+  margin: 10px;
+}
+
+#nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--dark-primary-color);
+}
+
+#nav-bar li {
+  display: inline;
+  float: left;
+}
+
+#nav-bar li a {
+  display: block;
+  padding: 12px 24px;
+  color: var(--primary-text-color);
+  font-size: 24;
+  text-decoration: None;
+  font-family: AlegreyaSans-Medium;
+}
+
+#nav-bar li a:hover {
+  background-color: var(--default-primary-color);
+}
