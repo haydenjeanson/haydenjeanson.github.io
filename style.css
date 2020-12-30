@@ -32,19 +32,19 @@ body {
   background-color: var(--light-primary-color);
 }
 
-#nav-bar {
+nav {
   background-color: var(--dark-primary-color);
   color: var(--primary-text-color);
 }
 
-#nav-bar h1 {
+nav h1 {
   font-family: AlegreyaSans-Bold;
   font-size: 60;
   padding: 10px;
   margin: 10px;
 }
 
-#nav-bar ul {
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -52,12 +52,12 @@ body {
   background-color: var(--dark-primary-color);
 }
 
-#nav-bar li {
+nav li {
   display: inline;
   float: left;
 }
 
-#nav-bar li a {
+nav li a {
   display: block;
   padding: 12px 24px;
   color: var(--primary-text-color);
@@ -66,6 +66,6 @@ body {
   font-family: AlegreyaSans-Medium;
 }
 
-#nav-bar li a:hover {
+nav li a:hover {
   background-color: var(--default-primary-color);
 }
