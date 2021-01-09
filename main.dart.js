@@ -52513,11 +52513,11 @@ k=this.b
 j=this.c
 i=K.bC(a).bE
 h=P.aV(51,0,0,0)
-l=T.a3N(M.dh(g,T.yy(C.Z,E.a30(i.c,G.a7N("assets/images/cancel-icon.svg",30,30),"close_button",h,!1,f.gLf()),C.t,C.eU),g,g,g,g,k,g,g,j),l-1.5)
+l=T.a3N(M.dh(g,T.yy(C.Z,E.a30(i.c,G.a7N("images/cancel-icon.svg",30,30),"close_button",h,!1,f.gLf()),C.t,C.eU),g,g,g,g,k,g,g,j),l-1.5)
 n=m.a2(0,n.gq(n))
 m=K.bC(a).bE
 h=P.aV(51,0,0,0)
-e=M.dh(g,T.i9(C.Z,H.c([r,q,p,o,l,T.a3N(M.dh(g,T.yy(C.Z,E.a30(m.a,G.a7N("assets/images/apps-icon.svg",30,30),"open_button",h,!1,f.gOY(f)),C.t,C.eU),g,g,g,g,k,g,g,j),n)],t.Z),C.bb),g,g,g,g,s.a.b,g,g,e.a.a*5/6)
+e=M.dh(g,T.i9(C.Z,H.c([r,q,p,o,l,T.a3N(M.dh(g,T.yy(C.Z,E.a30(m.a,G.a7N("images/apps-icon.svg",30,30),"open_button",h,!1,f.gOY(f)),C.t,C.eU),g,g,g,g,k,g,g,j),n)],t.Z),C.bb),g,g,g,g,s.a.b,g,g,e.a.a*5/6)
 return new T.jK(E.a6N(d),C.Z,!0,e,g)},
 $C:"$2",
 $R:2,
